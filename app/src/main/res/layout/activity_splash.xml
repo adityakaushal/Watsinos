@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:lottie_autoPlay="true"
+        app:lottie_colorFilter="@color/colorAccent"
+        app:lottie_fileName="lottiefiles.com - Loading 4.json"
+        app:lottie_loop="true"/>
+    <TextView
+        android:text="WATSIN"
+        android:layout_marginLeft="60dp"
+        android:fontFamily="casual"
+        android:layout_marginTop="50dp"
+        android:textSize="38sp"
+        android:textColor="@android:color/background_light"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+    <TextView
+        android:text="S"
+        android:layout_marginLeft="260dp"
+        android:fontFamily="casual"
+        android:layout_marginTop="50dp"
+        android:textSize="38sp"
+        android:textColor="@android:color/background_light"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+    <ImageView
+        android:id="@+id/watsinos"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="207dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="70dp"
+        android:src="@mipmap/ic_face" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:textColor="#Ffffff"
+        android:textSize="20sp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="casual"
+        android:text="Customize your pizza easily"/>
+</FrameLayout>

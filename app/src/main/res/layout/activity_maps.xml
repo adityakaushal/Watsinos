@@ -1,0 +1,28 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    tools:context=".MapsActivity"/>
+<Button
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/pizzas"
+    android:text="Nearby Pizza parlours"
+    android:onClick="onClick"
+    android:textColor="#FFFFFF"
+    android:background="@drawable/button_border"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="10dp"
+    android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
